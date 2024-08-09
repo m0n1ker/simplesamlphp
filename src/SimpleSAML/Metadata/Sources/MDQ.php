@@ -133,7 +133,7 @@ class MDQ extends MetaDataStorageSource
         }
 
         $cachekey = sha1($entityId);
-        return $this->cacheDir . '/' . $set . '-' . $cachekey . '.cached.xml';
+        return $this->cacheDir . '/' . $set . '-' . $cachekey . '.cached.json';
     }
 
 
